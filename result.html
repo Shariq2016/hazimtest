@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Test Results</h1>
+  <div id="score-summary"></div>
+ 
+  <script>
+    // Function to display score from URL parameters
+    function displayScore() {
+      const params = new URLSearchParams(window.location.search);
+      const score = params.get("score");
+      const total = params.get("total");
+      const percentage = ((score / total) * 100).toFixed(2);
+      document.getElementById("score-summary").innerHTML =
+        `<p>You scored ${score} out of ${total} (${percentage}%)</p>`;
+    }
+    
+    displayScore();
+  </script>
+</body>
+</html>
