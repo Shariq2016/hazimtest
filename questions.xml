@@ -143,21 +143,7 @@
     <option>D. Hollow sphere</option>
     <correct>A</correct>
   </question>
-  <question id="19">
-    <text>The total angular displacement for a rotating object is given by the equation θ = ω₀t + (1/2)αt². What does ω₀ represent?</text>
-    <option>A. Initial angular velocity</option>
-    <option>B. Final angular velocity</option>
-    <option>C. Angular acceleration</option>
-    <option>D. Angular momentum</option>
-    <correct>A</correct>
-  </question>
-  <question id="20">
-    <text>Which of the following is true for an object rotating about a fixed axis?</text>
-    <option>A. All points in the object move with the same angular velocity</option>
-    <option>B. The angular velocity is zero at all points</option>
-    <option>C. All points have the same linear velocity</option>
-    <option>D. The moment of inertia is constant for all points</option>
-    <correct>A</correct>
+ 
   </question>
   <!-- Add more questions up to 30 -->
 
