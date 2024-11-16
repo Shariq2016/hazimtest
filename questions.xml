@@ -1,127 +1,243 @@
 <questions>
-  <question id="1">
-    <text>What is the moment of inertia of a solid sphere of mass M and radius R about an axis passing through its center?</text>
-    <option>A. (1/2)MR²</option>
-    <option>B. (2/5)MR²</option>
-    <option>C. (1/3)MR²</option>
-    <option>D. (1/4)MR²</option>
-    <correct>B</correct>
-  </question>
-  <question id="2">
-    <text>Which of the following expressions represents the angular momentum of a rotating body?</text>
-    <option>A. L = Iω</option>
-    <option>B. L = mv</option>
-    <option>C. L = mvr</option>
-    <option>D. L = r × p</option>
-    <correct>A</correct>
-  </question>
-  <question id="3">
-    <text>If the torque acting on a body is constant, which of the following equations holds true for the angular acceleration of the body?</text>
-    <option>A. τ = Iα</option>
-    <option>B. τ = mα</option>
-    <option>C. τ = Iω</option>
-    <option>D. τ = mv</option>
-    <correct>A</correct>
-  </question>
-  <question id="4">
-    <text>What is the formula for the rotational kinetic energy of a rotating body?</text>
-    <option>A. K = (1/2)Iω²</option>
-    <option>B. K = (1/2)mv²</option>
-    <option>C. K = (1/2)Iω</option>
-    <option>D. K = mgh</option>
-    <correct>A</correct>
-  </question>
-  <question id="5">
-    <text>Which of the following is the correct relationship between angular momentum and torque?</text>
-    <option>A. τ = dL/dt</option>
-    <option>B. τ = L/dt</option>
-    <option>C. L = Iα</option>
-    <option>D. τ = Iω</option>
-    <correct>A</correct>
-  </question>
-  <question id="6">
-    <text>What is the moment of inertia of a thin uniform rod of mass M and length L rotating about an axis through its center perpendicular to its length?</text>
-    <option>A. (1/12)ML²</option>
-    <option>B. (1/2)ML²</option>
-    <option>C. (1/4)ML²</option>
-    <option>D. (1/6)ML²</option>
-    <correct>A</correct>
-  </question>
-  <question id="7">
-    <text>A body with moment of inertia I is rotating with angular velocity ω. What is its angular momentum?</text>
-    <option>A. L = Iω</option>
-    <option>B. L = mω</option>
-    <option>C. L = mvr</option>
-    <option>D. L = I²ω</option>
-    <correct>A</correct>
-  </question>
-  <question id="8">
-    <text>In rotational motion, what is the relationship between torque, angular acceleration, and moment of inertia?</text>
-    <option>A. τ = Iα</option>
-    <option>B. τ = Iω</option>
-    <option>C. τ = I²α</option>
-    <option>D. τ = mα</option>
-    <correct>A</correct>
-  </question>
-  <question id="9">
-    <text>What is the expression for the work done by a torque in rotating a body through an angle θ?</text>
-    <option>A. W = τθ</option>
-    <option>B. W = Iθ</option>
-    <option>C. W = Iωθ</option>
-    <option>D. W = τ/θ</option>
-    <correct>A</correct>
-  </question>
-  <question id="10">
-    <text>What is the relationship between linear velocity v and angular velocity ω for an object rotating with radius r?</text>
-    <option>A. v = rω</option>
-    <option>B. v = ω/r</option>
-    <option>C. v = r²ω</option>
-    <option>D. v = ω²r</option>
-    <correct>A</correct>
-  </question>
-  <question id="11">
-    <text>Which of the following is conserved in the absence of external torque?</text>
-    <option>A. Linear momentum</option>
-    <option>B. Angular momentum</option>
-    <option>C. Energy</option>
-    <option>D. Velocity</option>
-    <correct>B</correct>
-  </question>
+	<question id="1">
+		<text>What is the moment of inertia of a solid sphere of mass M and radius R about an axis passing through its center?</text>
+		<option>A. (1/2)MR²</option>
+		<option>B. (2/5)MR²</option>
+		<option>C. (1/3)MR²</option>
+		<option>D. (1/4)MR²</option>
+		<correct>B</correct>
+	</question>
+	<question id="2">
+		<text>Which of the following expressions represents the angular momentum of a rotating body?</text>
+		<option>A. L = Iω</option>
+		<option>B. L = mv</option>
+		<option>C. L = mvr</option>
+		<option>D. L = r × p</option>
+		<correct>A</correct>
+	</question>
+	<question id="3">
+		<text>A disc of radius 0.5 m and mass 2 kg is rotating with an angular velocity of 4 rad/s. What is its angular momentum?</text>
+		<option>A. 4 kg m²/s</option>
+		<option>B. 8 kg m²/s</option>
+		<option>C. 12 kg m²/s</option>
+		<option>D. 16 kg m²/s</option>
+		<correct>B</correct>
+	</question>
+	<question id="4">
+		<text>A cylindrical rod of length L and mass M is rotated about an axis through one end. What is its moment of inertia?</text>
+		<option>A. (1/3)ML²</option>
+		<option>B. (1/2)ML²</option>
+		<option>C. (1/4)ML²</option>
+		<option>D. (2/5)ML²</option>
+		<correct>A</correct>
+	</question>
+	<question id="5">
+		<text>A wheel with a radius of 0.3 m is spinning at 20 rad/s. What is the linear speed of a point on the edge of the wheel?</text>
+		<option>A. 4.0 m/s</option>
+		<option>B. 5.0 m/s</option>
+		<option>C. 6.0 m/s</option>
+		<option>D. 7.0 m/s</option>
+		<correct>B</correct>
+	</question>
+	<question id="6">
+		<text>If the angular velocity of a wheel changes from 10 rad/s to 20 rad/s in 5 seconds, what is the angular acceleration?</text>
+		<option>A. 1 rad/s²</option>
+		<option>B. 2 rad/s²</option>
+		<option>C. 3 rad/s²</option>
+		<option>D. 4 rad/s²</option>
+		<correct>B</correct>
+	</question>
+	<question id="7">
+		<text>A solid cylinder rolls without slipping down an incline. If the incline is at an angle θ and the cylinder has a radius R, what is the acceleration of its center of mass?</text>
+		<option>A. g sin(θ)</option>
+		<option>B. (2/3)g sin(θ)</option>
+		<option>C. (1/2)g sin(θ)</option>
+		<option>D. (1/3)g sin(θ)</option>
+		<correct>B</correct>
+	</question>
+	<question id="8">
+		<text>A flywheel with a moment of inertia of 0.5 kg m² is rotating at 12 rad/s. How much torque is needed to stop it in 4 seconds?</text>
+		<option>A. 1.5 Nm</option>
+		<option>B. 2.0 Nm</option>
+		<option>C. 2.5 Nm</option>
+		<option>D. 3.0 Nm</option>
+		<correct>B</correct>
+	</question>
+	<question id="9">
+		<text>A child of mass 30 kg is sitting at a distance of 2 m from the pivot point of a seesaw. What is the torque exerted by the child if the seesaw is horizontal?</text>
+		<option>A. 60 Nm</option>
+		<option>B. 90 Nm</option>
+		<option>C. 120 Nm</option>
+		<option>D. 150 Nm</option>
+		<correct>C</correct>
+	</question>
+	<question id="10">
+		<text>What is the centripetal acceleration of an object moving in a circle of radius 5 m at a speed of 10 m/s?</text>
+		<option>A. 10 m/s²</option>
+		<option>B. 20 m/s²</option>
+		<option>C. 5 m/s²</option>
+		<option>D. 15 m/s²</option>
+		<correct>B</correct>
+	</question>
+	<question id="11">
+		<text>A satellite is in a circular orbit around Earth at a distance of 7000 km from the center of the Earth. What is its orbital speed?</text>
+		<option>A. 5.0 km/s</option>
+		<option>B. 7.0 km/s</option>
+		<option>C. 3.6 km/s</option>
+		<option>D. 8.0 km/s</option>
+		<correct>A</correct>
+	</question>
   <question id="12">
-    <text>A wheel rotates about an axis with constant angular acceleration. If the initial angular velocity is zero, what is the equation for angular velocity after time t?</text>
-    <option>A. ω = αt</option>
-    <option>B. ω = ω₀ + αt</option>
-    <option>C. ω = ω₀ + θ</option>
-    <option>D. ω = αt²</option>
-    <correct>A</correct>
-  </question>
-  <question id="13">
-    <text>If a solid cylinder and a thin ring are rolling without slipping, which has the greatest acceleration?</text>
-    <option>A. Solid cylinder</option>
-    <option>B. Thin ring</option>
-    <option>C. Both have the same acceleration</option>
-    <option>D. It depends on the radius</option>
-    <correct>A</correct>
-  </question>
-  <question id="14">
-    <text>A disc of mass M and radius R is rolling without slipping on a horizontal surface. The total kinetic energy of the disc is the sum of?</text>
-    <option>A. Rotational and translational kinetic energy</option>
-    <option>B. Only rotational energy</option>
-    <option>C. Only translational energy</option>
-    <option>D. Gravitational potential energy</option>
-    <correct>A</correct>
-  </question>
-  <question id="15">
-    <text>What is the unit of moment of inertia?</text>
-    <option>A. kg·m²</option>
-    <option>B. N·m·s</option>
-    <option>C. J·s</option>
-    <option>D. kg·m/s</option>
-    <correct>A</correct>
-  </question>
+	<text>A torque of 20 Nm is applied to a wheel with a moment of inertia of 5 kg m². What is the angular acceleration of the wheel?</text>
+	<option>A. 2 rad/s²</option>
+	<option>B. 4 rad/s²</option>
+	<option>C. 8 rad/s²</option>
+	<option>D. 10 rad/s²</option>
+	<correct>B</correct>
+</question>
+<question id="13">
+	<text>What is the kinetic energy of a rotating disk of moment of inertia 2 kg m² spinning at 10 rad/s?</text>
+	<option>A. 50 J</option>
+	<option>B. 100 J</option>
+	<option>C. 200 J</option>
+	<option>D. 300 J</option>
+	<correct>B</correct>
+</question>
+<question id="14">
+	<text>A ring of radius 1 m and mass 1 kg is rolling on a flat surface without slipping. What is the total kinetic energy when it is rolling at 4 m/s?</text>
+	<option>A. 8 J</option>
+	<option>B. 10 J</option>
+	<option>C. 12 J</option>
+	<option>D. 14 J</option>
+	<correct>B</correct>
+</question>
+<question id="15">
+	<text>A barbell weighing 150 N rests on a pivot 1 m from one end. Calculate the torque due to the weight of the barbell if it is 0.5 m from the pivot.</text>
+	<option>A. 75 Nm</option>
+	<option>B. 50 Nm</option>
+	<option>C. 100 Nm</option>
+	<option>D. 125 Nm</option>
+	<correct>B</correct>
+</question>
+<question id="16">
+	<text>Two rigid bodies have moment of inertia 2 kg m² and 3 kg m² respectively. If both are rotating with the same angular velocity of 5 rad/s, what is the total angular momentum?</text>
+	<option>A. 25 kg m²/s</option>
+	<option>B. 35 kg m²/s</option>
+	<option>C. 40 kg m²/s</option>
+	<option>D. 50 kg m²/s</option>
+	<correct>B</correct>
+</question>
+<question id="17">
+	<text>Which of the following has the greatest moment of inertia: a solid cylinder, hollow cylinder, or a solid sphere, all having the same mass and radius?</text>
+	<option>A. Solid Cylinder</option>
+	<option>B. Hollow Cylinder</option>
+	<option>C. Solid Sphere</option>
+	<option>D. All are the same</option>
+	<correct>B</correct>
+</question>
+<question id="18">
+	<text>A boat is moving at a constant speed in a circle of radius 100 m. If the speed of the boat is 10 m/s, what is the centripetal acceleration?</text>
+	<option>A. 1 m/s²</option>
+	<option>B. 5 m/s²</option>
+	<option>C. 10 m/s²</option>
+	<option>D. 20 m/s²</option>
+	<correct>A</correct>
+</question>
+<question id="19">
+	<text>A dancer spins with an angular velocity of 3 rad/s. If she pulls her arms in, her moment of inertia decreases to half its original value. What will be her new angular velocity?</text>
+	<option>A. 6 rad/s</option>
+	<option>B. 3 rad/s</option>
+	<option>C. 1.5 rad/s</option>
+	<option>D. 2 rad/s</option>
+	<correct>A</correct>
+</question>
+<question id="20">
+	<text>A mass of 4 kg is attached to a string and is swinging in a circle of radius 2 m. What is the tension in the string if the speed is 8 m/s?</text>
+	<option>A. 16 N</option>
+	<option>B. 8 N</option>
+	<option>C. 32 N</option>
+	<option>D. 40 N</option>
+	<correct>C</correct>
+</question>
+<question id="21">
+	<text>A 1.5 kg ball is rotating in a circle of radius 0.8 m at a speed of 6 m/s. What is the centripetal force acting on the ball?</text>
+	<option>A. 7.5 N</option>
+	<option>B. 8.5 N</option>
+	<option>C. 9 N</option>
+	<option>D. 10 N</option>
+	<correct>A</correct>
+</question>
+<question id="22">
+	<text>If the moment of inertia of a flywheel is halved, what happens to the angular momentum if angular velocity remains constant?</text>
+	<option>A. It doubles</option>
+	<option>B. It remains the same</option>
+	<option>C. It is halved</option>
+	<option>D. It is zero</option>
+	<correct>C</correct>
+</question>
+<question id="23">
+	<text>A pendulum of length 1 m swings back and forth. What is its period of oscillation?</text>
+	<option>A. 1 sec</option>
+	<option>B. 2 sec</option>
+	<option>C. 3 sec</option>
+	<option>D. 4 sec</option>
+	<correct>B</correct>
+</question>
+<question id="24">
+	<text>A block of mass 2 kg is attached to a spring and oscillates with a period of 0.5 s. What is the spring constant?</text>
+	<option>A. 32 N/m</option>
+	<option>B. 64 N/m</option>
+	<option>C. 128 N/m</option>
+	<option>D. 256 N/m</option>
+	<correct>B</correct>
+</question>
+<question id="25">
+	<text>A car with a mass of 1000 kg rounds a curve of radius 30 m at a speed of 15 m/s. What is the centripetal force acting on the car?</text>
+	<option>A. 750 N</option>
+	<option>B. 500 N</option>
+	<option>C. 400 N</option>
+	<option>D. 600 N</option>
+	<correct>A</correct>
 
- 
-  </question>
-  <!-- Add more questions up to 30 -->
-
+</question>
+<question id="26">
+	<text>A uniform disc is rotating about an axis through its center. If its angular speed is doubled, what is the effect on its rotational kinetic energy?</text>
+	<option>A. It is doubled</option>
+	<option>B. It is quadrupled</option>
+	<option>C. It remains the same</option>
+	<option>D. It is halved</option>
+	<correct>B</correct>
+</question>
+<question id="27">
+	<text>A solid sphere is rolling down an incline. If it starts from rest, what fraction of its total mechanical energy is kinetic energy when it reaches the bottom?</text>
+	<option>A. 1/2</option>
+	<option>B. 2/5</option>
+	<option>C. 1/3</option>
+	<option>D. 3/5</option>
+	<correct>D</correct>
+</question>
+<question id="28">
+	<text>A flywheel requires 15 Nm of torque to accelerate from rest to 200 rad/s in 10 seconds. What is its moment of inertia?</text>
+	<option>A. 30 kg m²</option>
+	<option>B. 15 kg m²</option>
+	<option>C. 45 kg m²</option>
+	<option>D. 60 kg m²</option>
+	<correct>A</correct>
+</question>
+<question id="29">
+	<text>A solid cylinder is rotating with angular velocity of 10 rad/s and it experiences a torque of 2 Nm. What is the time taken to stop it?</text>
+	<option>A. 5 seconds</option>
+	<option>B. 10 seconds</option>
+	<option>C. 15 seconds</option>
+	<option>D. 20 seconds</option>
+	<correct>B</correct>
+</question>
+<question id="30">
+	<text>What is the work done in rotating a solid sphere of radius R through an angle θ?</text>
+	<option>A. Iω²θ</option>
+	<option>B. (1/5)MR²ω²θ</option>
+	<option>C. (2/5)MR²ω²θ</option>
+	<option>D. (1/2)MR²ω²θ</option>
+	<correct>C</correct>
+</question>
 </questions>
